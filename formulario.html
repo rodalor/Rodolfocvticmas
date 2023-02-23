@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Envio</title>
+    <!--Framework descargado de Bootstrap-->
+    <link rel="stylesheet" type="text/css" href="C:\Users\Rodo\Prueba Web Responsive\bootstrap.min.css" />
+    <!--Hoja de estilo personalizada-->
+    <link rel="stylesheet" type="text/css" href="C:\Users\Rodo\Prueba Web Responsive\style.css" />
+
+    
+</head>
+<body id="detalleform">
+     <form  method="post"  id="datgral" autocomplete="off">
+        <label for="exampleFormControlInput1" class="form-label"><strong style="font-size: x-large">Dirección e-mail</strong></label>
+        <input type="email"  title="Ingresar e-mail"  class="form-control" id="correo" required>
+        <label for="exampleFormControlInput1" class="form-label"> <strong style="font-size: x-large">Nombre y Apellido</strong></label>
+        <input type="text"  title="Ingrese Nombre y Apellido" maxlength="50"  required class="form-control" id="Nombreyap" >
+        <label for="exampleFormControlInput1" class="form-label"><strong style="font-size: x-large">Cargo Ocupado</strong></label>
+        <input type="text" title="Ingresar Cargo Ocupado" required class="form-control" id="cargo" >
+        <label for="exampleFormControlInput1" class="form-label"><strong style="font-size: x-large">Nombre Empresa</strong></label>
+        <input type="text" title="Ingresar Nombre de Empresa" class="form-control" id="empresa" required >
+        <label for="exampleFormControlInput1" class="form-label"><strong style="font-size: x-large">Nro. Telefono de Contacto</strong></label>
+        <input type="tel" title="Ingresar Numero de Telefono" class="form-control" id="nrotel" pattern="[0-9]{2}-[0-9]{11}" required >
+        <label for="exampleFormControlTextarea1" class="form-label"><strong style="font-size: x-large">Detalle Entrevista</strong></label>
+        <textarea class="form-control" id="texto" title="Ingrese detalle Entrevista" maxlength="100" rows="3" required></textarea>
+        <hr class="lineacorta" />
+        <button type="submit" data-action="save" value="Enviar" class="btn btn-primary mb-3" id="envioform">Enviar</button>
+        <button type="reset" id="clear" class="btn btn-primary mb-3">Borrar</button>
+        <button type="button" id="cerrar" class="btn btn-primary mb-3">Salir</button>
+      </form>
+      
+      <script src="acciones.js" ></script>
+
+</body>
+</html>

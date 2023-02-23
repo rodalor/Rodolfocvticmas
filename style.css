@@ -1,0 +1,59 @@
+
+
+body{
+        /*Color de fondo cuerpo*/
+        background-color: rgb(233, 163, 83);
+       
+ 
+}
+/* Atributos linea divisora pagina Index*/
+.linea{
+    border-color: black;
+    border-width: 5px;
+
+}
+
+/* Atributos linea invisible pagina index y formulario para generar espacio entre div*/
+.lineacorta{
+    border-color: #eb0909;
+    border-width: 2px;
+    border-style: dashed;
+    width: 10px;
+    visibility: hidden;
+}
+
+/* Atributos Clase Titulos principales de cada sector,pagina Index*/
+.titulo{
+    text-shadow: 2px 2px 2px #1C6EA4;
+    text-align:center;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-size: x-large;
+    
+}
+/* Atributos Clase lista pagina Index*/
+.lista li{
+color: rgba(15, 15, 17, 0.897);
+font-style: oblique, bold;
+font-family:cursive;
+align-items: center;
+font-size: x-large;
+list-style-image:url(tilde.jpg);
+
+}
+.text-center{
+    font-style: oblique, bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+/*Atributos de Margen aplicado sobre el Form de la pagina Formulario*/
+#detalleform{
+    margin: auto;
+    padding: 10px ;
+    inline-size: 75%;
+    
+}
+
+
+ 
